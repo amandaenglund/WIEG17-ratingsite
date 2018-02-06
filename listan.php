@@ -2,13 +2,12 @@
 require "./header.php";
 
 
-$songs = array("8. Imse vimse spindel", "6. Björnen sover", "7. Prästens lilla kråka", "9. Gullefjun", "10. När lillan kom till jorden", "10. Är du vaken Lars?", "2. Vi komma ifrån ria ra askedaskeda", "3. Hipp hurra, för här kommer bumbibjönarna", "4. Lille Katt", "7. Idas sommarvisa");
-rsort($songs);
 
 require "./functions.php";
+require "./data.php";
 
-lista($songs);
-
+// lista($songs);
+listan($songArray);
 
 
 

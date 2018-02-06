@@ -1,3 +1,7 @@
+<?php 
+define("NAME", "childrensongs.com");
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +11,7 @@
     
         $pageName = "Children Songs";
 
-        echo "My Site";        
+        echo NAME;        
         if (isset($pageName)) {
             echo " - $pageName";
         }

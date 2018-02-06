@@ -9,5 +9,18 @@ function lista($songs) {
 
 };
 
+function listan($songArray) {
+
+    foreach ($songArray as $value) {
+        echo $value["namn"]. $value["poäng"]. "<br>";
+    }
+
+};
+
+// createSongArray = ($songName $songPoints) {
+
+// }
+
+
 
 ?>
