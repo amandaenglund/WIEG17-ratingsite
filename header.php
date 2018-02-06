@@ -3,7 +3,15 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title><?php 
+    
+        $pageName = "Children Songs";
+
+        echo "My Site";        
+        if (isset($pageName)) {
+            echo " - $pageName";
+        }
+        ?></title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,6 +25,7 @@
 </ul>
 
 <?php
+
 
 
 ?>
